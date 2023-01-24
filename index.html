@@ -9,7 +9,18 @@
     <title>Dictionary</title>
   </head>
   <body>
-    <h1>hello</h1>
+    <div class="container">
+      <h1 class="heading" id="heading">Dictionary</h1>
+      <input type="text" placeholder="search a word" class="input" id="input" />
+      <p class="information" id="information">Type a word & press enter</p>
+      <div class="meaning-container" id="meaning-container">
+        <p>Word: <span class="title" id="title">_______</span></p>
+        <p>Meaning: <span class="meaning" id="meaning">______</span></p>
+        <audio src="" controls id="audio"></audio>
+      </div>
+    </div>
+
+    <!-- javascript -->
     <script src="./app.js"></script>
   </body>
 </html>
