@@ -8,4 +8,51 @@ font-family: "Roboto", sans-serif; */
 }
 body {
   background: linear-gradient(to right, #c0c0aa, #1cefff);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 12px 8px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  margin: 20px;
+  max-width: 450px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.heading {
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 20px;
+}
+
+.input {
+  /* background: linear-gradient(135deg, #ecc344 0%, #e42d7f 100%); */
+  height: 53px;
+  width: 300px;
+  background-color: #eec0c6;
+  background-image: linear-gradient(to right, #eec0c6 0%, #7ee8fa 74%);
+  border-color: rgba(255, 255, 255, 0.3);
+
+  padding: 0 42px;
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  /* padding-top: 20px; */
+}
+
+.meaning-container {
+  display: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.information {
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
 }
